@@ -2,18 +2,23 @@
 // 1. Declareer een variabele en sla daar een array met vier jaartallen (zoals 2021) in op. Log dit in de terminal.
 // ==========================================
 
+const year =  [1984, 1992, 2020, 2023];
+console.log(year);
 
 // ==========================================
 // 2. Declareer een variabele en sla daar een array met drie van jouw hobbies (zoals muziek luisteren en koekjes eten) in op. Log dit in de terminal.
 // ==========================================
 
+const hobby = ['kayak', 'mtb', 'hiking'];
+console.log(hobby);
 
 // ==========================================
 // 3a. Declareer een variabele met daarin een array met de waardes 3, 4, 5, 7 en 2
 // 3b. Zorg er nu voor dat je de eerste waarde uit die array in de terminal logt             // geeft 3
 // ==========================================
 
-
+const number = [3, 4, 5, 7, 2];
+console.log(number[0]);
 // ==========================================
 // 4a. Declareer een variabele met daarin een array met de waardes groen, geel, rood, paars, blauw en oranje.
 // Nu gaan we de waardes weer aanspreken!
@@ -21,6 +26,8 @@
 // 4c. Zorg ervoor dat je de tweede waarde uit bovenstaande array in de terminal logt       // geeft geel
 // ==========================================
 
+const color = ['groen', 'geel', 'rood', 'paars', 'blauw', 'oranje'];
+console.log(color[1], color[4]);
 
 // ==========================================
 // 5a. Declareer een variabele met daarin een array met de waardes 21, 22, 23, 25, 25 en log dit in de terminal
@@ -28,6 +35,9 @@
 // 5c. Log de array in de terminal                                                          // geeft [ 21, 22, 23, 24, 25 ]
 // ==========================================
 
+const counting = [21, 22, 23, 25, 25];
+counting [3] = 24;
+console.log(counting);
 
 // ==========================================
 // 6a. Declareer een variabele met daarin een array met de waardes bladerdeeg, knoflook, spinazie
@@ -35,3 +45,8 @@
 // 6c. Log de de array in de terminal                                                       // geeft [ 'lasagne bladen', 'knoflook', 'spinazie' ]
 // 6d. Log de lengte van de array in de terminal                                            // geeft 3
 // ==========================================
+
+const ingredientsPasta = ['bladerdeeg', 'knoflook', 'spinazie'];
+ingredientsPasta [0] = 'lasagnebladen';
+console.log(ingredientsPasta);
+console.log(ingredientsPasta.length);
